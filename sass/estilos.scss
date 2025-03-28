@@ -1,0 +1,24 @@
+@use "./partials/cards";
+@use "./partials/main";
+@use "./partials/navbar";
+
+.btn-success {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+    font-weight: bold;
+
+    &:hover {
+        background-color: #d9534f;
+        border-color: #d9534f;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        height: 40px;
+    }
+
+    .card {
+        width: 100%;
+    }
+}

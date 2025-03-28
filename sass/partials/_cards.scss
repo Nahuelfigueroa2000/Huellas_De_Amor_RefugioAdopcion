@@ -1,0 +1,28 @@
+.card {
+    display: inline-block;
+    margin: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-img-top1 {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    color: #28a745;
+    font-size: 1.3rem;
+}

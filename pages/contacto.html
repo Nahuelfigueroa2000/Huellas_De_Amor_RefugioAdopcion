@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!--Css-->
+     <link rel="stylesheet" href="../css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <!--Barra de navegacion-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../assets/image-page/logo.png" alt="Logo de huellas de amor"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/quienSomos.html">¿Quienes somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/donaciones.html">Donaciones</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mas informacion
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/adopta.html">Adopta Ya!!!</a></li>
+                      <li><a class="dropdown-item" href="../pages/voluntario.html">Voluntario</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">🔍</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+      <!-- Sección de Contacto -->
+    <section class="container my-5">
+            <h1>📞 ¡Contáctanos! 🐾</h1>
+            <p>Estamos aquí para ayudarte a encontrar a tu nuevo mejor amigo. 💙</p>
+        <div class="row">
+            <!-- Formulario -->
+            <div class="col-md-6">
+                <h2>Envíanos un mensaje ✉️</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="tucorreo@example.com" required>
+                    </div>
+                     <div class="mb-3">
+                        <label for="nombreMascota" class="form-label">Selecciona a tu amigo ideal</label>
+                        <select class="form-control" id="nombreMascota" required>
+                            <optgroup label="🐶 Perros">
+                                <option>Zeus</option>
+                                <option>Rocoso</option>
+                                <option>Milo</option>
+                                <option>Bruno</option>
+                                <option>Toby</option>
+                                <option>Kira</option>
+                                <option>Budy</option>
+                                <option>Maximo</option>
+                                <option>Simba</option>
+                                <option>Sasha</option>
+                            </optgroup>
+                            <optgroup label="🐱 Gatos">
+                                <option>Misty</option>
+                                <option>Sol</option>
+                                <option>Chester</option>
+                                <option>Nala Y Luna</option>
+                                <option>Tigre</option>
+                                <option>Bills</option>
+                                <option>Tom y Oliver</option>
+                                <option>Rocky</option>
+                                <option>Felix</option>
+                                <option>Salem</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu consulta aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+
+            <!-- Información de Contacto -->
+            <div class="col-md-6">
+                <h3>📍 Información de contacto</h3>
+                <p><span>Dirección:</span> Calle Ficticia 123, Ciudad</p>
+                <p><span>Teléfono:</span> +54 9 1123456789</p>
+                <p><span>Email:</span> contacto@adoptaunamigo.org</p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <!--Footer-->
+    <footer class="text-center p-4 bg-dark text-white">
+        <h3>🌎 Juntos hacemos la diferencia</h3>
+        <p>Cada adopción, cada voluntario y cada donación nos acerca a un mundo mejor para los animales.  
+           ¡Gracias por ser parte de esta causa! 🐾💙</p>
+    
+        <!-- Redes sociales -->
+        <div>
+            <a href="https://facebook.com" target="_blank">
+                <img src="../assets/image-page/facebook-logo.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../assets/image-page/instagram-logo.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="../assets/image-page/x logo.png" alt="Twitter">
+            </a>
+        </div>
+    
+        <!-- Botón de contacto -->
+        <a href="../pages/contacto.html" class="btn btn-primary mt-2">Ir a la página de contacto</a>
+    
+        <!-- Derechos de autor -->
+        <p>&copy; 2025 <strong>Francisco Nahuel Figueroa</strong> Todos los derechos reservados.</p>
+    </footer>
+     <!--Bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
